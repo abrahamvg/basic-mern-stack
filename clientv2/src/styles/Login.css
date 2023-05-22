@@ -1,0 +1,51 @@
+.loginModal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    color:antiquewhite;
+    background-color: hsl(42, 91%, 53%);
+    padding: 16px 24px;
+    width: 400px;
+    height: 240px;
+
+    border-radius: 12px;
+}
+
+.loginModal h1{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+
+.loginTextField{
+    font-size: 14px;
+    color: black;
+
+    border: 0px;
+    padding: 8px 8px;
+    border-radius: 4px;
+
+    width: 100%;
+}
+
+.loginTextField:focus{
+    outline: none;
+    border-color: hwb(42 10% 40%);
+    box-shadow: 0px 0px 5px hwb(42 22% 23%);
+}
+.loginButton{
+    font-size: 14px;
+
+    padding: 8px;
+    margin-top: 16px;
+    border: 0;
+    border-radius: 2px;
+
+    background-color: hwb(42 10% 40%) !important;
+    color: white;
+
+    cursor: pointer;
+}
